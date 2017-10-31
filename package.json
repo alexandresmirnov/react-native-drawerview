@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {},
   "repository": {
-      "type": "git",
-      "url": "git@github.com:alexandresmirnov/react-native-drawerview.git"
-    },
+    "type": "git",
+    "url": "git@github.com:alexandresmirnov/react-native-drawerview.git"
+  },
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "16.0.0-alpha.12",
-    "react-native": "^0.48.4",
-  }
+  },
+  "author": "alexandresmirnov",
+  "license": "MIT",
+  "homepage": "https://github.com/alexandresmirnov/react-native-drawerview"
 }
