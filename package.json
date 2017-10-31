@@ -1,6 +1,6 @@
 {
   "name": "react-native-drawerview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DrawerView component for a slide-out top panel.",
   "main": "index.js",
   "scripts": {},
