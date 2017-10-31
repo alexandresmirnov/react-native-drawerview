@@ -11,6 +11,18 @@
   "dependencies": {
     "prop-types": "^15.6.0"
   },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "drawer",
+    "panel",
+    "hidden-panel",
+    "drawer-view",
+    "menu",
+    "ios",
+    "android"
+  ],
   "author": "alexandresmirnov",
   "license": "MIT",
   "homepage": "https://github.com/alexandresmirnov/react-native-drawerview"
