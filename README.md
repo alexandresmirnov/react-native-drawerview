@@ -9,7 +9,7 @@ This package exports a DrawerView component whose purpose is to be able to show 
 
 ### Usage
 ```javascript
-import DrawerView from 'react-native-drawerview'
+import DrawerView from 'react-native-drawerview';
 
 <DrawerView closedOffset={-300}>
   <View style={{height: 300}}>
