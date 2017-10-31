@@ -9,7 +9,7 @@
     "url": "git@github.com:alexandresmirnov/react-native-drawerview.git"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",
+    "prop-types": "^15.6.0"
   },
   "author": "alexandresmirnov",
   "license": "MIT",
