@@ -25,7 +25,7 @@ import DrawerView from 'react-native-drawerview'
 
 - `closedOffset {required}`: The offset of the DrawerView when the panel is closed.  Is a negative number to hide a certain amount of the content.
 - `openOffset {default: 0}`: The offset when the panel is open.  Default is 0.
-- `threshold {default: 0}`: How far drawer must be moved before it snaps open/closed.  E.g. drawer is closed, user moves drawer by a number less than the threshold -> drawer snaps back closed.
+- `threshold {default: 25}`: How far drawer must be moved before it snaps open/closed.  E.g. drawer is closed, user moves drawer by a number less than the threshold -> drawer snaps back closed.
 - `gestureThreshold {default: 5}`: How far touch must be moved before it starts registering.  With this, if a user taps on a child Touchable but moves their finger slightly during the tap, it will still register.  If this value is too low, it will be hard to tap UI elements because the drawer animation will override the event.
 - `minVelocityBeyondThreshold {default: 1}`: The minimum velocity used to calculate how quickly the drawer opens/closes if it has been moved by more than the threshold.  Default is 1, which is a reasonable speed.  If the velocity is higher than this value, the animation will take that instead (resulting in a faster opening/closing animation).
 - `minVelocityWithinThreshold {default: 0.5}`: Same as above, except if drawer moved less than threshold.  The default is lower so that the snap-back animation isn't as sudden.
