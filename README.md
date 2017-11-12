@@ -8,7 +8,7 @@ This package exports a DrawerView component whose purpose is to be able to show 
 
 ### Example
 
-(example.gif)
+![](example.gif)
 
 ### Example Usage
 ```javascript
