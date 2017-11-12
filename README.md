@@ -6,17 +6,32 @@ This package exports a DrawerView component whose purpose is to be able to show 
 
 `npm install --save react-native-drawerview`
 
+### Example
 
-### Usage
+(example.gif)
+
+### Example Usage
 ```javascript
 import DrawerView from 'react-native-drawerview';
 
-<DrawerView closedOffset={-300}>
-  <View style={{height: 300}}>
-    <Text>This will be the drawer part.</Text>
+<DrawerView style={{flex: 1}} closedOffset={-200}>
+  <View style={{
+    backgroundColor: '#eee',
+    height: 200,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingLeft: 50,
+    paddingRight: 50
+  }}>
+    <Text style={{fontSize: 30}}>This is the drawer part.</Text>
   </View>
-  <View style={elevation: 10}>
-    <Text>This will always be visible.</Text>
+  <View style={{
+    height: 500,
+    alignItems: 'center',
+    paddingTop: 100,
+    backgroundColor: '#fff'
+  }}>
+    <Text style={{fontSize: 30, flex: 1}}>This will always be visible.</Text>
   </View>
 </DrawerView>
 ```
